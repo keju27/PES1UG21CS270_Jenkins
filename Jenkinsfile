@@ -20,10 +20,10 @@ pipeline{
                 echo 'Deployment Sucessful'
             }
         }
-        post{
+    }
+    post{
             failure{
                 error 'Pipeline failed'
             }
-        }
-    }
+     }
 }
