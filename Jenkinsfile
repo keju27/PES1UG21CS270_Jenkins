@@ -20,7 +20,7 @@ pipeline{
                 echo 'Deployment Sucessful'
             }
         }
-        pose{
+        post{
             failure{
                 error 'Pipeline failed'
             }
